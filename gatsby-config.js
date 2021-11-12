@@ -32,6 +32,12 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-source-geo`,
+      options: {
+        path: `${__dirname}/src/maps/2011-Revised-final-Plan-SHAPEFILES-House/House2012FInal.shp`,
+      },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
